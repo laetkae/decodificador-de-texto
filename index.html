@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador/Decotificador</title>
+    <link rel="stylesheet" href="/Desafio/Style/style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <img src="/Desafio/Style/Logo.png" alt="logo A">
+            <h1 class="cabecalho-texto">Decodificador de Texto</h1>
+        </header>
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite o seu texto..."></textarea>
+                <p class="regras">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div id="output">
+                <img id="img" src="/Desafio/Style/High quality products 1 1.svg" alt="humano com lupa">
+                <h2 id="mensagem-criptografada">Nenhuma mensagem encontrada</h2>
+                <span id="instrucao" class="texto-geral">Digite um texto que você deseja criptografar ou descriptografar</span>
+                <button class="copiar" id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+        <div class="botoes">
+            <div class="container-botoes">
+                <button onclick="criptografar()" class="criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h3>Desenvolvido por Bahadur</h3>
+    </footer>
+    <script src="/Desafio/Style/app.js"></script>
+</body>
+</html>
